@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <link rel="shortcut icon" href=" https://cdn-icons-png.freepik.com/256/8216/8216619.png?semt=ais_hybrid"
+        type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+            scroll-behavior: smooth;
+        }
+
+        .navbarbox {
+            display: flex;
+            margin-top: 10px;
+
+        }
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("https://i.pinimg.com/736x/52/41/2b/52412b2c6ae21f71a19195bac4a9867c.jpg");
+            
+            /* Default for large screens */
+            background-size: cover;
+            /* Ensure full coverage */
+            background-position: center;
+            /* Keep the focus area centered */
+            /* background-repeat: no-repeat; Avoid tiling */
+            background-attachment: fixed;
+            /* Keeps the background static */
+        }
+
+        /* Tablets */
+        @media (max-width: 1280px) {
+            body { background-image: url("https://i.pinimg.com/736x/52/41/2b/52412b2c6ae21f71a19195bac4a9867c.jpg");
+                 
+                /* Optimized for tablets */
+            }
+        }
+
+        /* Mobile phones */
+        @media (max-width: 720px) {
+            body {background-image: url("https://i.pinimg.com/736x/52/41/2b/52412b2c6ae21f71a19195bac4a9867c.jpg");
+                
+                /* Optimized for mobiles */
+                background-attachment: scroll;
+                /* Improves performance on mobile */
+            }
+        }
+
+        /* Laptops */
+        @media (max-width: 1440px) {
+            body {
+                
+                background-image: url("https://i.pinimg.com/736x/52/41/2b/52412b2c6ae21f71a19195bac4a9867c.jpg");
+                /* Optimized for laptops */
+            }
+        }
+
+
+
+
+
+        .navbar {
+            /* background-color: black; */
+            
+
+
+    
+            margin: 5px;
+            height: 90px;
+            /* border:2px solid rgb(195, 34, 34); */
+            display: flex;
+            flex-wrap: wrap;
+        
+            margin-top: 50px;
+            border-radius: 10PX;
+            width: 80%;
+            margin-left: 10%;
+            
+
+
+        }
+
+
+
+
+
+
+ 
+
+        .navbar a:hover {
+
+            box-shadow: 2px 2px 25px aqua;
+
+
+        }
+
+        .navbar a{
+
+
+            margin: 5px;
+            padding: 5PX;
+            border-radius: 8px;
+            /* border:2px solid black; */
+            width: fit-content;
+            margin-left: 150px;
+            color: white;
+            text-decoration: none;
+            display: inline;
+            /* padding-left: 100px; */
+        }
+
+
+
+
+        .icon {
+            width: 70px;
+            /* border-radius: 100%; */
+        }
+
+
+
+
+
+        .container {
+            margin: 100px 0 0 200px;
+            /* display:flex; */
+            height: 400px;
+
+            width: 80%;
+            justify-content: center;
+            gap:5px;
+
+        }
+
+        .container img {
+            width: 10%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 2px solid aqua;
+            transition: all ease-in-out 0.5s;
+        }
+
+        .container img:hover {
+            width: 35%;
+            box-shadow: 2px 2px 10cap aqua;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <section id="col">
+
+        <div class="navbar">
+
+<a href="">
+
+    <img src="https://cdn-icons-png.freepik.com/256/8216/8216619.png?semt=ais_hybrid" alt="" srcset=""
+    class="icon">
+</a>
+
+
+           
+
+
+            <a href="note"> <img
+                    src="https://cdn-icons-png.freepik.com/256/13332/13332886.png?ga=GA1.1.492333239.1719049022&semt=ais_hybrid"
+                    alt="" srcset="" class="icon"></a>
+            <a href="previous"> <img
+                    src="https://cdn-icons-png.freepik.com/256/17488/17488341.png?ga=GA1.1.492333239.1719049022&semt=ais_hybrid"
+                    alt="" srcset="" class="icon"></a>
+            <a href="lecture"> <img src="https://cdn-icons-png.flaticon.com/512/354/354652.png" alt="" srcset=""
+                    class="icon"></a>
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+
+    <section>
+
+
+
+        <div class="container">
+
+            <a href="lecture" id="pic1">
+
+                <img src="https://img.freepik.com/premium-vector/conference-scientific-seminar-woman-performing-stage-hall-business-lecture-event_165429-1350.jpg"
+                    alt="" srcset="">
+            </a>
+            <a href="previous" id="pic2">
+
+                <img src="https://kannada.thehindustangazette.com/wp-content/uploads/2021/05/exam-text-sticky-note-pinned-to-corkboard-d-rendering-82204269.jpg"
+                    alt="" srcset="">
+            </a>
+            <a href="note" id="pic3">
+
+                <img src="https://th.bing.com/th/id/OIP.kMf0sLOfz7OscO-8pY4FPgAAAA?rs=1&pid=ImgDetMain" alt=""
+                    srcset="">
+            </a>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
